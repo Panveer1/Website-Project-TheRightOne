@@ -15,7 +15,7 @@ function btnClicked() {
   let result3 = 0;
   let result4 = 0;
   // Process & Output
-  if (answer1 == "Player" && "Soccer Play") {
+  if (answer1 == "Player" && "Soccer Player") {
     document.getElementById("q1").style.backgroundColor = "lightgreen";
     document.getElementById("out1").innerHTML = `Correct!`;
     result1 = 1;
@@ -23,7 +23,7 @@ function btnClicked() {
     document.getElementById("q1").style.backgroundColor = "red";
     document.getElementById(
       "out1"
-    ).innerHTML = `Incorrect! The correct answer is Player`;
+    ).innerHTML = `Incorrect! The correct answer is Player or Soccer PLayer`;
     result1 = 0;
   }
 
