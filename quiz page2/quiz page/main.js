@@ -15,7 +15,7 @@ function btnClicked() {
   let result3 = 0;
   let result4 = 0;
   // Process & Output
-  if (answer1 == "Player") {
+  if (answer1 == "Player" && "Soccer Play") {
     document.getElementById("q1").style.backgroundColor = "lightgreen";
     document.getElementById("out1").innerHTML = `Correct!`;
     result1 = 1;
